@@ -24,5 +24,5 @@ test("Process is quick when the number of products and max weight are maximum", 
   const startTime = performance.now();
   expect(getMaxTotalValueOfProducts(n, products, W)).toBe(1000);
   const endTime = performance.now();
-  expect(endTime - startTime).toBeLessThan(150);
+  expect(endTime - startTime).toBeLessThan(300);
 });
